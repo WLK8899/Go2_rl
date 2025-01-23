@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_msgs/msg/RobotCommand.msg
+// generated code does not contain a copyright notice
+
+#include "robot_msgs/msg/MotorCommand.idl"
+
+module robot_msgs {
+  module msg {
+    struct RobotCommand {
+      sequence<robot_msgs::msg::MotorCommand> motor_command;
+    };
+  };
+};

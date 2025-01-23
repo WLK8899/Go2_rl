@@ -1,0 +1,2 @@
+/usr/bin/ar qc libobservation_buffer.a CMakeFiles/observation_buffer.dir/library/observation_buffer/observation_buffer.cpp.o
+/usr/bin/ranlib libobservation_buffer.a

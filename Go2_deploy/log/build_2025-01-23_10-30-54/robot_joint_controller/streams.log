@@ -1,0 +1,37 @@
+[0.008s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller -- -j16 -l16
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target robot_joint_controller[0m
+[0.058s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/src/robot_joint_controller.cpp.o[0m
+[0.058s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/src/robot_joint_controller_group.cpp.o[0m
+[7.015s] [100%] [32m[1mLinking CXX shared library librobot_joint_controller.so[0m
+[7.574s] [100%] Built target robot_joint_controller
+[7.587s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller' returned '0': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller -- -j16 -l16
+[7.588s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller
+[7.594s] -- Install configuration: ""
+[7.594s] -- Execute custom install script
+[7.594s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller//robot_joint_controller_plugins.xml
+[7.594s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/robot_joint_controller.hpp
+[7.595s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/robot_joint_controller_group.hpp
+[7.595s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/visibility_control.h
+[7.595s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/library_path.sh
+[7.595s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/library_path.dsv
+[7.595s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/robot_joint_controller
+[7.595s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/robot_joint_controller
+[7.595s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/ament_prefix_path.sh
+[7.595s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/ament_prefix_path.dsv
+[7.595s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/path.sh
+[7.596s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/path.dsv
+[7.596s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.bash
+[7.596s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.sh
+[7.596s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.zsh
+[7.596s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.dsv
+[7.596s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/package.dsv
+[7.604s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/robot_joint_controller
+[7.604s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robot_joint_controller
+[7.604s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[7.604s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.605s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/robot_joint_controllerConfig.cmake
+[7.605s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/robot_joint_controllerConfig-version.cmake
+[7.605s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/package.xml
+[7.605s] -- Installing: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_joint_controller.so
+[7.618s] -- Set runtime path of "/home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_joint_controller.so" to ""
+[7.620s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller' returned '0': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller

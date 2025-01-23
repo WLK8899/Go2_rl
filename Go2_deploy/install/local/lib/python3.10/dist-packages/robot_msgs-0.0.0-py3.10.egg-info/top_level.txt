@@ -1,0 +1,1 @@
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs/ament_cmake_python/robot_msgs/robot_msgs.egg-info/top_level.txt

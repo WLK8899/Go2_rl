@@ -1,0 +1,182 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Torch: /home/y/Project/Go2/libtorch/lib/libtorch.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 3.05
+-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+-- Found assimp: /usr/include (found version "5.2.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-transport8 -- found version 8.2.1
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.4
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 9.0.0
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.0
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-fuel_tools4 -- found version 4.4.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.5
+-- Found JSONCPP: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.7.3
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found joint_state_broadcaster: 2.39.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE  
+-- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+-- Gazebo version: 11.10
+-- Checking for module 'tbb'
+--   Found tbb, version 2021.5.0
+-- Found robot_msgs: 0.0.0 (/home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake)
+-- Found robot_joint_controller: 0.0.0 (/home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake)
+-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found Python3: /usr/bin/python3 (found suitable exact version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+-- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: NumPy Interpreter Development.Module 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar
+[ 10%] [32mBuilding CXX object CMakeFiles/observation_buffer.dir/library/observation_buffer/observation_buffer.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rl_sdk.dir/library/rl_sdk/rl_sdk.cpp.o[0m
+[ 30%] [32m[1mLinking CXX static library librl_sdk.a[0m
+[ 30%] Built target rl_sdk
+[ 40%] [32m[1mLinking CXX static library libobservation_buffer.a[0m
+[ 40%] Built target observation_buffer
+[ 70%] [32mBuilding CXX object CMakeFiles/rl_real_a1.dir/src/rl_real_a1.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rl_sim.dir/src/rl_sim.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rl_real_go2.dir/src/rl_real_go2.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable rl_real_a1[0m
+[ 80%] Built target rl_real_a1
+[ 90%] [32m[1mLinking CXX executable rl_real_go2[0m
+[ 90%] Built target rl_real_go2
+[100%] [32m[1mLinking CXX executable rl_sim[0m
+[100%] Built target rl_sim
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libunitree_legged_sdk_amd64.so
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libunitree_legged_sdk_arm32.so
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libunitree_legged_sdk_arm64.so
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libddsc.so
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libddscxx.so
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libddsc.so
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libddscxx.so
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_sim
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/librl_sdk.a
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/libobservation_buffer.a
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_real_a1
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_real_go2
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_sim.py
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/actuator_net.py
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//launch/gazebo.launch.py
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//worlds/stairs.world
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/config.yaml
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0501.pt
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0522.pt
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0526.pt
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0702.pt
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacsim/config.yaml
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacsim/policy.pt
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/go2_isaacgym/config.yaml
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/go2_isaacgym/himloco.pt
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/go2_isaacgym/policy_1.pt
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t1_isaacgym/config.yaml
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t1_isaacgym/model_4000_jit.pt
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t1_isaacsim/config.yaml
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t2_isaacgym/config.yaml
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t2_isaacgym/model_4000_jit.pt
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t2_isaacsim/config.yaml
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/rl_sar
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/rl_sar
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/ament_prefix_path.sh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/ament_prefix_path.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/path.sh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/path.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.bash
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.sh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.zsh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/package.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/rl_sar
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/cmake/rl_sarConfig.cmake
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/cmake/rl_sarConfig-version.cmake
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/package.xml

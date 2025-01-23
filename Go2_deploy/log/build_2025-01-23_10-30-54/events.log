@@ -1,0 +1,746 @@
+[0.000000] (-) TimerEvent: {}
+[0.000569] (a1_description) JobQueued: {'identifier': 'a1_description', 'dependencies': OrderedDict()}
+[0.000605] (go2_description) JobQueued: {'identifier': 'go2_description', 'dependencies': OrderedDict()}
+[0.000627] (robot_msgs) JobQueued: {'identifier': 'robot_msgs', 'dependencies': OrderedDict()}
+[0.000657] (robot_joint_controller) JobQueued: {'identifier': 'robot_joint_controller', 'dependencies': OrderedDict([('robot_msgs', '/home/y/Project/unitree_Go2/Go2_deploy/install')])}
+[0.000679] (rl_sar) JobQueued: {'identifier': 'rl_sar', 'dependencies': OrderedDict([('robot_msgs', '/home/y/Project/unitree_Go2/Go2_deploy/install'), ('robot_joint_controller', '/home/y/Project/unitree_Go2/Go2_deploy/install')])}
+[0.000701] (robot_msgs) JobStarted: {'identifier': 'robot_msgs'}
+[0.004698] (a1_description) JobStarted: {'identifier': 'a1_description'}
+[0.006737] (go2_description) JobStarted: {'identifier': 'go2_description'}
+[0.010059] (robot_msgs) JobProgress: {'identifier': 'robot_msgs', 'progress': 'cmake'}
+[0.010501] (robot_msgs) JobProgress: {'identifier': 'robot_msgs', 'progress': 'build'}
+[0.011029] (robot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs', '--', '-j16', '-l16'], 'cwd': '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'y'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2348'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenvo:@/tmp/.ICE-unix/2348,unix/lenvo:/tmp/.ICE-unix/2348'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fd4d506_8abe_4d09_992f_a7c47af34d4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('Torch_DIR', '/home/y/Project/Go2/libtorch'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/y/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.012993] (a1_description) JobProgress: {'identifier': 'a1_description', 'progress': 'cmake'}
+[0.013414] (a1_description) JobProgress: {'identifier': 'a1_description', 'progress': 'build'}
+[0.014047] (a1_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description', '--', '-j16', '-l16'], 'cwd': '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'y'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2348'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenvo:@/tmp/.ICE-unix/2348,unix/lenvo:/tmp/.ICE-unix/2348'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fd4d506_8abe_4d09_992f_a7c47af34d4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('Torch_DIR', '/home/y/Project/Go2/libtorch'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/y/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.015838] (go2_description) JobProgress: {'identifier': 'go2_description', 'progress': 'cmake'}
+[0.016272] (go2_description) JobProgress: {'identifier': 'go2_description', 'progress': 'build'}
+[0.016900] (go2_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description', '--', '-j16', '-l16'], 'cwd': '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'y'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2348'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenvo:@/tmp/.ICE-unix/2348,unix/lenvo:/tmp/.ICE-unix/2348'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fd4d506_8abe_4d09_992f_a7c47af34d4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('Torch_DIR', '/home/y/Project/Go2/libtorch'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/y/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.045723] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.046931] (a1_description) CommandEnded: {'returncode': 0}
+[0.047401] (a1_description) JobProgress: {'identifier': 'a1_description', 'progress': 'install'}
+[0.052837] (robot_msgs) StdoutLine: {'line': b'[  1%] Built target robot_msgs__cpp\n'}
+[0.054645] (a1_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description'], 'cwd': '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'y'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2348'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenvo:@/tmp/.ICE-unix/2348,unix/lenvo:/tmp/.ICE-unix/2348'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fd4d506_8abe_4d09_992f_a7c47af34d4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('Torch_DIR', '/home/y/Project/Go2/libtorch'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/y/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.055428] (robot_msgs) StdoutLine: {'line': b'[ 12%] Built target robot_msgs__rosidl_generator_c\n'}
+[0.055983] (go2_description) CommandEnded: {'returncode': 0}
+[0.056614] (go2_description) JobProgress: {'identifier': 'go2_description', 'progress': 'install'}
+[0.057723] (go2_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description'], 'cwd': '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'y'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2348'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenvo:@/tmp/.ICE-unix/2348,unix/lenvo:/tmp/.ICE-unix/2348'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fd4d506_8abe_4d09_992f_a7c47af34d4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('Torch_DIR', '/home/y/Project/Go2/libtorch'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/y/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060818] (a1_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.061159] (a1_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.061344] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.061470] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//config/robot_control.yaml\n'}
+[0.061586] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//config/robot_control_group.yaml\n'}
+[0.061803] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/a1_rviz.launch.py\n'}
+[0.061896] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/check_joint.rviz\n'}
+[0.062001] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/group_gazebo.launch.py\n'}
+[0.062103] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/single_gazebo.launch.py\n'}
+[0.062309] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/calf.dae\n'}
+[0.062399] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/hip.dae\n'}
+[0.062507] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/thigh.dae\n'}
+[0.062652] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.062743] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.062880] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/thigh_mirror.dae\n'}
+[0.062956] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/trunk.dae\n'}
+[0.063026] (robot_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_robot_msgs\n'}
+[0.063145] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/trunk_A1.png\n'}
+[0.063216] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//urdf/a1.urdf\n'}
+[0.063335] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.063410] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.063584] (go2_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.063739] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/const.xacro\n'}
+[0.063838] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/gazebo.xacro\n'}
+[0.063931] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/leg.xacro\n'}
+[0.064068] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/materials.xacro\n'}
+[0.064156] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.064244] (go2_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.064383] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/robot.xacro\n'}
+[0.064474] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/ros2_control.xacro\n'}
+[0.064580] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/stairs.xacro\n'}
+[0.064660] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/transmission.xacro\n'}
+[0.064814] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/a1_description\n'}
+[0.064918] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/a1_description\n'}
+[0.065102] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/ament_prefix_path.sh\n'}
+[0.065251] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/ament_prefix_path.dsv\n'}
+[0.065349] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//config/robot_control.yaml\n'}
+[0.065457] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//launch/check_joint.rviz\n'}
+[0.065545] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//launch/gazebo.launch\n'}
+[0.065612] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//launch/go2_rviz.launch\n'}
+[0.065742] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/calf.dae\n'}
+[0.065814] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/calf_mirror.dae\n'}
+[0.065878] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/foot.dae\n'}
+[0.065969] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/path.sh\n'}
+[0.066043] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/path.dsv\n'}
+[0.066155] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.bash\n'}
+[0.066221] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.sh\n'}
+[0.066285] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/hip.dae\n'}
+[0.066366] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/thigh.dae\n'}
+[0.066410] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/thigh_mirror.dae\n'}
+[0.066494] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/trunk.dae\n'}
+[0.066598] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//urdf/Amended_collision_model.png\n'}
+[0.066677] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//urdf/Normal_collision_model.png\n'}
+[0.066725] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.zsh\n'}
+[0.066786] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.dsv\n'}
+[0.066830] (a1_description) StdoutLine: {'line': b'-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/package.dsv\n'}
+[0.066873] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//urdf/go2_description.urdf\n'}
+[0.066913] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/const.xacro\n'}
+[0.066965] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/gazebo.xacro\n'}
+[0.067009] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/leg.xacro\n'}
+[0.067052] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/materials.xacro\n'}
+[0.067096] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/robot.xacro\n'}
+[0.067140] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/ros2_control.xacro\n'}
+[0.067184] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/transmission.xacro\n'}
+[0.067280] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/go2_description\n'}
+[0.067329] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/go2_description\n'}
+[0.067374] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/environment/ament_prefix_path.sh\n'}
+[0.067457] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/environment/ament_prefix_path.dsv\n'}
+[0.067510] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/environment/path.sh\n'}
+[0.067656] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/environment/path.dsv\n'}
+[0.067759] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/local_setup.bash\n'}
+[0.067890] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/local_setup.sh\n'}
+[0.068004] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/local_setup.zsh\n'}
+[0.068108] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/local_setup.dsv\n'}
+[0.068190] (go2_description) StdoutLine: {'line': b'-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/package.dsv\n'}
+[0.073794] (robot_msgs) StdoutLine: {'line': b'[ 34%] Built target robot_msgs__rosidl_typesupport_cpp\n'}
+[0.074560] (robot_msgs) StdoutLine: {'line': b'[ 33%] Built target robot_msgs__rosidl_typesupport_c\n'}
+[0.074752] (robot_msgs) StdoutLine: {'line': b'[ 46%] Built target robot_msgs__rosidl_typesupport_introspection_c\n'}
+[0.074892] (robot_msgs) StdoutLine: {'line': b'[ 57%] Built target robot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.075541] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/a1_description\n'}
+[0.075675] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/cmake/a1_descriptionConfig.cmake\n'}
+[0.075813] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/cmake/a1_descriptionConfig-version.cmake\n'}
+[0.075933] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/go2_description\n'}
+[0.076018] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/cmake/go2_descriptionConfig.cmake\n'}
+[0.076092] (a1_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/package.xml\n'}
+[0.076164] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/cmake/go2_descriptionConfig-version.cmake\n'}
+[0.076246] (go2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/package.xml\n'}
+[0.076465] (robot_msgs) StdoutLine: {'line': b'[ 68%] Built target robot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.077285] (robot_msgs) StdoutLine: {'line': b'[ 79%] Built target robot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.077834] (a1_description) CommandEnded: {'returncode': 0}
+[0.094283] (a1_description) JobEnded: {'identifier': 'a1_description', 'rc': 0}
+[0.094641] (go2_description) CommandEnded: {'returncode': 0}
+[0.094862] (robot_msgs) StdoutLine: {'line': b'[ 79%] Built target robot_msgs\n'}
+[0.099854] (-) TimerEvent: {}
+[0.106543] (go2_description) JobEnded: {'identifier': 'go2_description', 'rc': 0}
+[0.112526] (robot_msgs) StdoutLine: {'line': b'[ 80%] Built target robot_msgs__py\n'}
+[0.122190] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_generator_py\x1b[0m\n'}
+[0.134976] (robot_msgs) StdoutLine: {'line': b'[ 90%] Built target robot_msgs__rosidl_generator_py\n'}
+[0.143547] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.143704] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.143770] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.154333] (robot_msgs) StdoutLine: {'line': b'[100%] Built target robot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.154490] (robot_msgs) StdoutLine: {'line': b'[100%] Built target robot_msgs__rosidl_typesupport_c__pyext\n'}
+[0.154575] (robot_msgs) StdoutLine: {'line': b'[100%] Built target robot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199962] (-) TimerEvent: {}
+[0.244255] (robot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.244746] (robot_msgs) StdoutLine: {'line': b'writing robot_msgs.egg-info/PKG-INFO\n'}
+[0.244903] (robot_msgs) StdoutLine: {'line': b'writing dependency_links to robot_msgs.egg-info/dependency_links.txt\n'}
+[0.245065] (robot_msgs) StdoutLine: {'line': b'writing top-level names to robot_msgs.egg-info/top_level.txt\n'}
+[0.246513] (robot_msgs) StdoutLine: {'line': b"reading manifest file 'robot_msgs.egg-info/SOURCES.txt'\n"}
+[0.246938] (robot_msgs) StdoutLine: {'line': b"writing manifest file 'robot_msgs.egg-info/SOURCES.txt'\n"}
+[0.265428] (robot_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_robot_msgs_egg\n'}
+[0.275919] (robot_msgs) CommandEnded: {'returncode': 0}
+[0.276485] (robot_msgs) JobProgress: {'identifier': 'robot_msgs', 'progress': 'install'}
+[0.277172] (robot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs'], 'cwd': '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'y'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2348'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenvo:@/tmp/.ICE-unix/2348,unix/lenvo:/tmp/.ICE-unix/2348'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fd4d506_8abe_4d09_992f_a7c47af34d4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('Torch_DIR', '/home/y/Project/Go2/libtorch'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/y/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.283415] (robot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.284017] (robot_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.284233] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/rosidl_interfaces/robot_msgs\n'}
+[0.284786] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__functions.h\n'}
+[0.284896] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__struct.h\n'}
+[0.284995] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__type_support.h\n'}
+[0.285100] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__functions.h\n'}
+[0.285191] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__struct.h\n'}
+[0.285287] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__type_support.h\n'}
+[0.285381] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__functions.h\n'}
+[0.285469] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__struct.h\n'}
+[0.285561] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__type_support.h\n'}
+[0.285653] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__functions.h\n'}
+[0.285747] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__struct.h\n'}
+[0.285830] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__type_support.h\n'}
+[0.285919] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__functions.h\n'}
+[0.286007] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__struct.h\n'}
+[0.286096] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__type_support.h\n'}
+[0.286181] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/imu.h\n'}
+[0.286267] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/motor_command.h\n'}
+[0.286352] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/motor_state.h\n'}
+[0.286435] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/robot_command.h\n'}
+[0.286524] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/robot_state.h\n'}
+[0.286624] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.286750] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/library_path.sh\n'}
+[0.286861] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/library_path.dsv\n'}
+[0.287263] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h\n'}
+[0.287355] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[0.287446] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.287555] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h\n'}
+[0.287650] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.287734] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.288031] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h\n'}
+[0.288127] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[0.288201] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_c.h\n'}
+[0.288291] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__rosidl_typesupport_introspection_c.h\n'}
+[0.288379] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_c.h\n'}
+[0.288481] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.288898] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__builder.hpp\n'}
+[0.288982] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__struct.hpp\n'}
+[0.289071] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__traits.hpp\n'}
+[0.289162] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__type_support.hpp\n'}
+[0.289251] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__builder.hpp\n'}
+[0.289340] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__struct.hpp\n'}
+[0.289428] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__traits.hpp\n'}
+[0.289521] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[0.289623] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__builder.hpp\n'}
+[0.289712] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__struct.hpp\n'}
+[0.289801] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__traits.hpp\n'}
+[0.289891] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__type_support.hpp\n'}
+[0.290006] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__builder.hpp\n'}
+[0.290139] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__struct.hpp\n'}
+[0.290263] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__traits.hpp\n'}
+[0.290357] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__type_support.hpp\n'}
+[0.290445] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__builder.hpp\n'}
+[0.290544] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__struct.hpp\n'}
+[0.290639] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__traits.hpp\n'}
+[0.290728] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__type_support.hpp\n'}
+[0.290811] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/imu.hpp\n'}
+[0.290896] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/motor_command.hpp\n'}
+[0.290980] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/motor_state.hpp\n'}
+[0.291064] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/robot_command.hpp\n'}
+[0.291146] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/robot_state.hpp\n'}
+[0.291233] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.291724] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.291816] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.291906] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.291996] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.292086] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.292172] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.292438] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.292549] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.292654] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.292741] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.292832] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.292945] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/pythonpath.sh\n'}
+[0.293059] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/pythonpath.dsv\n'}
+[0.293272] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.293359] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.293446] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.293544] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.294077] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/__init__.py\n'}
+[0.294163] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.294246] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.294331] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.294415] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/librobot_msgs__rosidl_generator_py.so\n'}
+[0.294511] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/__init__.py\n'}
+[0.294610] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_imu.py\n'}
+[0.294699] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_imu_s.c\n'}
+[0.294787] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_motor_command.py\n'}
+[0.294874] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_motor_command_s.c\n'}
+[0.294962] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_motor_state.py\n'}
+[0.295052] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_motor_state_s.c\n'}
+[0.295174] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_robot_command.py\n'}
+[0.295282] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_robot_command_s.c\n'}
+[0.295382] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_robot_state.py\n'}
+[0.295454] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_robot_state_s.c\n'}
+[0.295537] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.295637] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.295705] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.295851] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.296018] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.296189] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.296309] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/MotorCommand.idl\n'}
+[0.296428] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/MotorState.idl\n'}
+[0.296552] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/RobotCommand.idl\n'}
+[0.296662] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/RobotState.idl\n'}
+[0.296772] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/IMU.idl\n'}
+[0.296879] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/MotorCommand.msg\n'}
+[0.296985] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/MotorState.msg\n'}
+[0.297097] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/RobotCommand.msg\n'}
+[0.297206] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/RobotState.msg\n'}
+[0.297312] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/IMU.msg\n'}
+[0.297436] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/robot_msgs\n'}
+[0.297567] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/robot_msgs\n'}
+[0.297683] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/ament_prefix_path.sh\n'}
+[0.297788] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/ament_prefix_path.dsv\n'}
+[0.297895] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/path.sh\n'}
+[0.298003] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/path.dsv\n'}
+[0.298116] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/local_setup.bash\n'}
+[0.298220] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/local_setup.sh\n'}
+[0.298319] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/local_setup.zsh\n'}
+[0.298419] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/local_setup.dsv\n'}
+[0.298485] (robot_msgs) StdoutLine: {'line': b'-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/package.dsv\n'}
+[0.300035] (-) TimerEvent: {}
+[0.305841] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/robot_msgs\n'}
+[0.305982] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.306094] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.306229] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.306360] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.306491] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.306647] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.306771] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.306896] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgsConfig.cmake\n'}
+[0.306978] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgsConfig-version.cmake\n'}
+[0.307083] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/package.xml\n'}
+[0.307252] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_generator_c.so\n'}
+[0.307474] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.307697] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.307880] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_c.so\n'}
+[0.308076] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.308280] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.308476] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_cpp.so\n'}
+[0.330857] (robot_msgs) StdoutLine: {'line': b"Listing '/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs'...\n"}
+[0.330983] (robot_msgs) StdoutLine: {'line': b"Listing '/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg'...\n"}
+[0.333695] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_generator_py.so\n'}
+[0.333913] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport.cmake\n'}
+[0.334019] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.334089] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.334193] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.334283] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.334346] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.334407] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.334467] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.334591] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.334658] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.334720] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.334780] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.334839] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.334931] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.334976] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.335022] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.335066] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.336809] (robot_msgs) CommandEnded: {'returncode': 0}
+[0.350447] (robot_msgs) JobEnded: {'identifier': 'robot_msgs', 'rc': 0}
+[0.350857] (robot_joint_controller) JobStarted: {'identifier': 'robot_joint_controller'}
+[0.356893] (robot_joint_controller) JobProgress: {'identifier': 'robot_joint_controller', 'progress': 'cmake'}
+[0.357326] (robot_joint_controller) JobProgress: {'identifier': 'robot_joint_controller', 'progress': 'build'}
+[0.357956] (robot_joint_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller', '--', '-j16', '-l16'], 'cwd': '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'y'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2348'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenvo:@/tmp/.ICE-unix/2348,unix/lenvo:/tmp/.ICE-unix/2348'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fd4d506_8abe_4d09_992f_a7c47af34d4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('Torch_DIR', '/home/y/Project/Go2/libtorch'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/y/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble')]), 'shell': False}
+[0.392406] (robot_joint_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_joint_controller\x1b[0m\n'}
+[0.400140] (-) TimerEvent: {}
+[0.408848] (robot_joint_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/src/robot_joint_controller.cpp.o\x1b[0m\n'}
+[0.409229] (robot_joint_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/src/robot_joint_controller_group.cpp.o\x1b[0m\n'}
+[0.500268] (-) TimerEvent: {}
+[0.600561] (-) TimerEvent: {}
+[0.700837] (-) TimerEvent: {}
+[0.801111] (-) TimerEvent: {}
+[0.901393] (-) TimerEvent: {}
+[1.001682] (-) TimerEvent: {}
+[1.101971] (-) TimerEvent: {}
+[1.202263] (-) TimerEvent: {}
+[1.302589] (-) TimerEvent: {}
+[1.402896] (-) TimerEvent: {}
+[1.503185] (-) TimerEvent: {}
+[1.603459] (-) TimerEvent: {}
+[1.703737] (-) TimerEvent: {}
+[1.803994] (-) TimerEvent: {}
+[1.904276] (-) TimerEvent: {}
+[2.004573] (-) TimerEvent: {}
+[2.104856] (-) TimerEvent: {}
+[2.205150] (-) TimerEvent: {}
+[2.305446] (-) TimerEvent: {}
+[2.405731] (-) TimerEvent: {}
+[2.506012] (-) TimerEvent: {}
+[2.606298] (-) TimerEvent: {}
+[2.706584] (-) TimerEvent: {}
+[2.806855] (-) TimerEvent: {}
+[2.907124] (-) TimerEvent: {}
+[3.007410] (-) TimerEvent: {}
+[3.107703] (-) TimerEvent: {}
+[3.207984] (-) TimerEvent: {}
+[3.308249] (-) TimerEvent: {}
+[3.408570] (-) TimerEvent: {}
+[3.508874] (-) TimerEvent: {}
+[3.609167] (-) TimerEvent: {}
+[3.709454] (-) TimerEvent: {}
+[3.809752] (-) TimerEvent: {}
+[3.910037] (-) TimerEvent: {}
+[4.010323] (-) TimerEvent: {}
+[4.110605] (-) TimerEvent: {}
+[4.210887] (-) TimerEvent: {}
+[4.311181] (-) TimerEvent: {}
+[4.411479] (-) TimerEvent: {}
+[4.511789] (-) TimerEvent: {}
+[4.612076] (-) TimerEvent: {}
+[4.712350] (-) TimerEvent: {}
+[4.812636] (-) TimerEvent: {}
+[4.912910] (-) TimerEvent: {}
+[5.013190] (-) TimerEvent: {}
+[5.113472] (-) TimerEvent: {}
+[5.213778] (-) TimerEvent: {}
+[5.314057] (-) TimerEvent: {}
+[5.414333] (-) TimerEvent: {}
+[5.514574] (-) TimerEvent: {}
+[5.614853] (-) TimerEvent: {}
+[5.715137] (-) TimerEvent: {}
+[5.815427] (-) TimerEvent: {}
+[5.915722] (-) TimerEvent: {}
+[6.015997] (-) TimerEvent: {}
+[6.116271] (-) TimerEvent: {}
+[6.216592] (-) TimerEvent: {}
+[6.316873] (-) TimerEvent: {}
+[6.417164] (-) TimerEvent: {}
+[6.517429] (-) TimerEvent: {}
+[6.617708] (-) TimerEvent: {}
+[6.717985] (-) TimerEvent: {}
+[6.818275] (-) TimerEvent: {}
+[6.918554] (-) TimerEvent: {}
+[7.018839] (-) TimerEvent: {}
+[7.119131] (-) TimerEvent: {}
+[7.219423] (-) TimerEvent: {}
+[7.319774] (-) TimerEvent: {}
+[7.365625] (robot_joint_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librobot_joint_controller.so\x1b[0m\n'}
+[7.419905] (-) TimerEvent: {}
+[7.520196] (-) TimerEvent: {}
+[7.620476] (-) TimerEvent: {}
+[7.720777] (-) TimerEvent: {}
+[7.821306] (-) TimerEvent: {}
+[7.921589] (-) TimerEvent: {}
+[7.925068] (robot_joint_controller) StdoutLine: {'line': b'[100%] Built target robot_joint_controller\n'}
+[7.937229] (robot_joint_controller) CommandEnded: {'returncode': 0}
+[7.937775] (robot_joint_controller) JobProgress: {'identifier': 'robot_joint_controller', 'progress': 'install'}
+[7.938424] (robot_joint_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller'], 'cwd': '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'y'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2348'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenvo:@/tmp/.ICE-unix/2348,unix/lenvo:/tmp/.ICE-unix/2348'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fd4d506_8abe_4d09_992f_a7c47af34d4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('Torch_DIR', '/home/y/Project/Go2/libtorch'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/y/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble')]), 'shell': False}
+[7.944386] (robot_joint_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.944858] (robot_joint_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.945014] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller//robot_joint_controller_plugins.xml\n'}
+[7.945256] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/robot_joint_controller.hpp\n'}
+[7.945339] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/robot_joint_controller_group.hpp\n'}
+[7.945423] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/visibility_control.h\n'}
+[7.945561] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/library_path.sh\n'}
+[7.945683] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/library_path.dsv\n'}
+[7.945832] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/robot_joint_controller\n'}
+[7.945947] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/robot_joint_controller\n'}
+[7.946059] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/ament_prefix_path.sh\n'}
+[7.946167] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/ament_prefix_path.dsv\n'}
+[7.946276] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/path.sh\n'}
+[7.946383] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/path.dsv\n'}
+[7.946492] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.bash\n'}
+[7.946620] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.sh\n'}
+[7.946723] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.zsh\n'}
+[7.946826] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.dsv\n'}
+[7.946893] (robot_joint_controller) StdoutLine: {'line': b'-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/package.dsv\n'}
+[7.954864] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/robot_joint_controller\n'}
+[7.955014] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robot_joint_controller\n'}
+[7.955116] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.955214] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.955332] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/robot_joint_controllerConfig.cmake\n'}
+[7.955409] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/robot_joint_controllerConfig-version.cmake\n'}
+[7.955552] (robot_joint_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/package.xml\n'}
+[7.955745] (robot_joint_controller) StdoutLine: {'line': b'-- Installing: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_joint_controller.so\n'}
+[7.969097] (robot_joint_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_joint_controller.so" to ""\n'}
+[7.970924] (robot_joint_controller) CommandEnded: {'returncode': 0}
+[7.983482] (robot_joint_controller) JobEnded: {'identifier': 'robot_joint_controller', 'rc': 0}
+[7.984512] (rl_sar) JobStarted: {'identifier': 'rl_sar'}
+[7.991964] (rl_sar) JobProgress: {'identifier': 'rl_sar', 'progress': 'cmake'}
+[7.992556] (rl_sar) JobProgress: {'identifier': 'rl_sar', 'progress': 'build'}
+[7.993268] (rl_sar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar', '--', '-j16', '-l16'], 'cwd': '/home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'y'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2348'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenvo:@/tmp/.ICE-unix/2348,unix/lenvo:/tmp/.ICE-unix/2348'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fd4d506_8abe_4d09_992f_a7c47af34d4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('Torch_DIR', '/home/y/Project/Go2/libtorch'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/y/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble')]), 'shell': False}
+[8.021686] (-) TimerEvent: {}
+[8.043488] (rl_sar) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[8.043707] (rl_sar) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[8.043785] (rl_sar) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[8.043858] (rl_sar) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[8.043928] (rl_sar) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[8.043998] (rl_sar) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.044069] (rl_sar) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[8.044138] (rl_sar) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[8.044205] (rl_sar) StderrLine: {'line': b'  CMakeLists.txt:20 (find_package)\n'}
+[8.044267] (rl_sar) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.044336] (rl_sar) StderrLine: {'line': b'\x1b[0m\n'}
+[8.060871] (rl_sar) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[8.083372] (rl_sar) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[8.084411] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.087590] (rl_sar) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[8.088566] (rl_sar) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[8.092690] (rl_sar) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[8.092846] (rl_sar) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[8.099967] (rl_sar) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[8.100163] (rl_sar) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[8.100292] (rl_sar) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[8.100378] (rl_sar) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[8.100449] (rl_sar) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[8.100517] (rl_sar) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[8.100583] (rl_sar) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[8.100648] (rl_sar) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[8.100708] (rl_sar) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[8.100772] (rl_sar) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[8.100821] (rl_sar) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[8.100868] (rl_sar) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[8.121760] (-) TimerEvent: {}
+[8.183515] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.183742] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[8.184068] (rl_sar) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[8.200248] (rl_sar) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[8.211170] (rl_sar) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[8.214975] (rl_sar) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[8.221858] (-) TimerEvent: {}
+[8.226159] (rl_sar) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[8.261837] (rl_sar) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[8.272062] (rl_sar) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[8.301360] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[8.301717] (rl_sar) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[8.319223] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.321938] (-) TimerEvent: {}
+[8.323083] (rl_sar) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[8.334091] (rl_sar) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[8.362548] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[8.362779] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[8.363079] (rl_sar) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[8.363165] (rl_sar) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[8.363222] (rl_sar) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[8.371816] (rl_sar) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[8.372057] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[8.372370] (rl_sar) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[8.372626] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.373235] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[8.373511] (rl_sar) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[8.404835] (rl_sar) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[8.415682] (rl_sar) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[8.422042] (-) TimerEvent: {}
+[8.448437] (rl_sar) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[8.459041] (rl_sar) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[8.488840] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[8.489089] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.489424] (rl_sar) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[8.490465] (rl_sar) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.522161] (-) TimerEvent: {}
+[8.531860] (rl_sar) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[8.575524] (rl_sar) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.581223] (rl_sar) StdoutLine: {'line': b'-- Found joint_state_broadcaster: 2.39.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)\n'}
+[8.595290] (rl_sar) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.596848] (rl_sar) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.601198] (rl_sar) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.607715] (rl_sar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.616194] (rl_sar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.622255] (-) TimerEvent: {}
+[8.722471] (-) TimerEvent: {}
+[8.739024] (rl_sar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.739905] (rl_sar) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.753162] (rl_sar) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[8.760801] (rl_sar) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[8.771226] (rl_sar) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[8.777806] (rl_sar) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[8.785509] (rl_sar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.819777] (rl_sar) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[8.822563] (-) TimerEvent: {}
+[8.834130] (rl_sar) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[8.837031] (rl_sar) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[8.837697] (rl_sar) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[8.877831] (rl_sar) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[8.879762] (rl_sar) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[8.880519] (rl_sar) StdoutLine: {'line': b'-- Found robot_msgs: 0.0.0 (/home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake)\n'}
+[8.886855] (rl_sar) StdoutLine: {'line': b'-- Found robot_joint_controller: 0.0.0 (/home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake)\n'}
+[8.899089] (rl_sar) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[8.899287] (rl_sar) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[8.912196] (rl_sar) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[8.922667] (-) TimerEvent: {}
+[9.022886] (-) TimerEvent: {}
+[9.037973] (rl_sar) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found suitable exact version "3.10.12") found components: Interpreter Development Development.Module Development.Embed \n'}
+[9.123001] (-) TimerEvent: {}
+[9.223258] (-) TimerEvent: {}
+[9.232435] (rl_sar) StdoutLine: {'line': b'-- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: NumPy Interpreter Development.Module \n'}
+[9.299304] (rl_sar) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.323371] (-) TimerEvent: {}
+[9.344537] (rl_sar) StdoutLine: {'line': b'-- Generating done\n'}
+[9.351873] (rl_sar) StdoutLine: {'line': b'-- Build files have been written to: /home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar\n'}
+[9.381437] (rl_sar) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rl_sdk\x1b[0m\n'}
+[9.381649] (rl_sar) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target observation_buffer\x1b[0m\n'}
+[9.423512] (-) TimerEvent: {}
+[9.424953] (rl_sar) StdoutLine: {'line': b'[ 40%] Built target rl_sdk\n'}
+[9.425063] (rl_sar) StdoutLine: {'line': b'[ 40%] Built target observation_buffer\n'}
+[9.437414] (rl_sar) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rl_real_a1\x1b[0m\n'}
+[9.437782] (rl_sar) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rl_sim\x1b[0m\n'}
+[9.437850] (rl_sar) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rl_real_go2\x1b[0m\n'}
+[9.487195] (rl_sar) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable rl_real_go2\x1b[0m\n'}
+[9.487367] (rl_sar) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/rl_real_a1.dir/src/rl_real_a1.cpp.o\x1b[0m\n'}
+[9.487443] (rl_sar) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable rl_sim\x1b[0m\n'}
+[9.523629] (-) TimerEvent: {}
+[9.623938] (-) TimerEvent: {}
+[9.724236] (-) TimerEvent: {}
+[9.824567] (-) TimerEvent: {}
+[9.924910] (-) TimerEvent: {}
+[10.025247] (-) TimerEvent: {}
+[10.125556] (-) TimerEvent: {}
+[10.225864] (-) TimerEvent: {}
+[10.326213] (-) TimerEvent: {}
+[10.426565] (-) TimerEvent: {}
+[10.495428] (rl_sar) StdoutLine: {'line': b'[ 80%] Built target rl_real_go2\n'}
+[10.526689] (-) TimerEvent: {}
+[10.627027] (-) TimerEvent: {}
+[10.727399] (-) TimerEvent: {}
+[10.827816] (-) TimerEvent: {}
+[10.928166] (-) TimerEvent: {}
+[11.028526] (-) TimerEvent: {}
+[11.128877] (-) TimerEvent: {}
+[11.229188] (-) TimerEvent: {}
+[11.329489] (-) TimerEvent: {}
+[11.429836] (-) TimerEvent: {}
+[11.530258] (-) TimerEvent: {}
+[11.630580] (-) TimerEvent: {}
+[11.730895] (-) TimerEvent: {}
+[11.831205] (-) TimerEvent: {}
+[11.931546] (-) TimerEvent: {}
+[12.031868] (-) TimerEvent: {}
+[12.132159] (-) TimerEvent: {}
+[12.232434] (-) TimerEvent: {}
+[12.332743] (-) TimerEvent: {}
+[12.433036] (-) TimerEvent: {}
+[12.533317] (-) TimerEvent: {}
+[12.633567] (-) TimerEvent: {}
+[12.731859] (rl_sar) StdoutLine: {'line': b'[ 90%] Built target rl_sim\n'}
+[12.733636] (-) TimerEvent: {}
+[12.833827] (-) TimerEvent: {}
+[12.934111] (-) TimerEvent: {}
+[13.034418] (-) TimerEvent: {}
+[13.134709] (-) TimerEvent: {}
+[13.234983] (-) TimerEvent: {}
+[13.335257] (-) TimerEvent: {}
+[13.435541] (-) TimerEvent: {}
+[13.535817] (-) TimerEvent: {}
+[13.636087] (-) TimerEvent: {}
+[13.736385] (-) TimerEvent: {}
+[13.836670] (-) TimerEvent: {}
+[13.936938] (-) TimerEvent: {}
+[14.037208] (-) TimerEvent: {}
+[14.137474] (-) TimerEvent: {}
+[14.237796] (-) TimerEvent: {}
+[14.338055] (-) TimerEvent: {}
+[14.438328] (-) TimerEvent: {}
+[14.538598] (-) TimerEvent: {}
+[14.638878] (-) TimerEvent: {}
+[14.739157] (-) TimerEvent: {}
+[14.839457] (-) TimerEvent: {}
+[14.939762] (-) TimerEvent: {}
+[15.040045] (-) TimerEvent: {}
+[15.140338] (-) TimerEvent: {}
+[15.240630] (-) TimerEvent: {}
+[15.340916] (-) TimerEvent: {}
+[15.441198] (-) TimerEvent: {}
+[15.541484] (-) TimerEvent: {}
+[15.641777] (-) TimerEvent: {}
+[15.742061] (-) TimerEvent: {}
+[15.842592] (-) TimerEvent: {}
+[15.942882] (-) TimerEvent: {}
+[16.043168] (-) TimerEvent: {}
+[16.143460] (-) TimerEvent: {}
+[16.243754] (-) TimerEvent: {}
+[16.344026] (-) TimerEvent: {}
+[16.444299] (-) TimerEvent: {}
+[16.544578] (-) TimerEvent: {}
+[16.644863] (-) TimerEvent: {}
+[16.745148] (-) TimerEvent: {}
+[16.845415] (-) TimerEvent: {}
+[16.945690] (-) TimerEvent: {}
+[17.045974] (-) TimerEvent: {}
+[17.146247] (-) TimerEvent: {}
+[17.246536] (-) TimerEvent: {}
+[17.346823] (-) TimerEvent: {}
+[17.447118] (-) TimerEvent: {}
+[17.547405] (-) TimerEvent: {}
+[17.647701] (-) TimerEvent: {}
+[17.747985] (-) TimerEvent: {}
+[17.848261] (-) TimerEvent: {}
+[17.948568] (-) TimerEvent: {}
+[18.048852] (-) TimerEvent: {}
+[18.149132] (-) TimerEvent: {}
+[18.249412] (-) TimerEvent: {}
+[18.349706] (-) TimerEvent: {}
+[18.449989] (-) TimerEvent: {}
+[18.550275] (-) TimerEvent: {}
+[18.650559] (-) TimerEvent: {}
+[18.750843] (-) TimerEvent: {}
+[18.851128] (-) TimerEvent: {}
+[18.951409] (-) TimerEvent: {}
+[19.051708] (-) TimerEvent: {}
+[19.152012] (-) TimerEvent: {}
+[19.252402] (-) TimerEvent: {}
+[19.352749] (-) TimerEvent: {}
+[19.453028] (-) TimerEvent: {}
+[19.553311] (-) TimerEvent: {}
+[19.653571] (-) TimerEvent: {}
+[19.753855] (-) TimerEvent: {}
+[19.854138] (-) TimerEvent: {}
+[19.954684] (-) TimerEvent: {}
+[20.054979] (-) TimerEvent: {}
+[20.155259] (-) TimerEvent: {}
+[20.255553] (-) TimerEvent: {}
+[20.355837] (-) TimerEvent: {}
+[20.456113] (-) TimerEvent: {}
+[20.556391] (-) TimerEvent: {}
+[20.656681] (-) TimerEvent: {}
+[20.756953] (-) TimerEvent: {}
+[20.857226] (-) TimerEvent: {}
+[20.957523] (-) TimerEvent: {}
+[21.057817] (-) TimerEvent: {}
+[21.158097] (-) TimerEvent: {}
+[21.258374] (-) TimerEvent: {}
+[21.358665] (-) TimerEvent: {}
+[21.458933] (-) TimerEvent: {}
+[21.559207] (-) TimerEvent: {}
+[21.659488] (-) TimerEvent: {}
+[21.759782] (-) TimerEvent: {}
+[21.860057] (-) TimerEvent: {}
+[21.960331] (-) TimerEvent: {}
+[22.060603] (-) TimerEvent: {}
+[22.160880] (-) TimerEvent: {}
+[22.261483] (-) TimerEvent: {}
+[22.361775] (-) TimerEvent: {}
+[22.462046] (-) TimerEvent: {}
+[22.562322] (-) TimerEvent: {}
+[22.662946] (-) TimerEvent: {}
+[22.763297] (-) TimerEvent: {}
+[22.863777] (-) TimerEvent: {}
+[22.964073] (-) TimerEvent: {}
+[23.052857] (rl_sar) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rl_real_a1\x1b[0m\n'}
+[23.064173] (-) TimerEvent: {}
+[23.164419] (-) TimerEvent: {}
+[23.264730] (-) TimerEvent: {}
+[23.365030] (-) TimerEvent: {}
+[23.465318] (-) TimerEvent: {}
+[23.531611] (rl_sar) StdoutLine: {'line': b'[100%] Built target rl_real_a1\n'}
+[23.544083] (rl_sar) CommandEnded: {'returncode': 0}
+[23.544765] (rl_sar) JobProgress: {'identifier': 'rl_sar', 'progress': 'install'}
+[23.545880] (rl_sar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar'], 'cwd': '/home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'y'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2348'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenvo:@/tmp/.ICE-unix/2348,unix/lenvo:/tmp/.ICE-unix/2348'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fd4d506_8abe_4d09_992f_a7c47af34d4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('Torch_DIR', '/home/y/Project/Go2/libtorch'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b23001f671562b37a508a026790f489'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/y/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble')]), 'shell': False}
+[23.551394] (rl_sar) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[23.551774] (rl_sar) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.551963] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libunitree_legged_sdk_amd64.so\n'}
+[23.552060] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libunitree_legged_sdk_arm32.so\n'}
+[23.552139] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libunitree_legged_sdk_arm64.so\n'}
+[23.552261] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libddsc.so\n'}
+[23.552358] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libddscxx.so\n'}
+[23.552587] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_sim\n'}
+[23.552690] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/librl_sdk.a\n'}
+[23.552769] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/libobservation_buffer.a\n'}
+[23.552872] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_real_a1\n'}
+[23.552971] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_real_go2\n'}
+[23.553087] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_sim.py\n'}
+[23.553173] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/actuator_net.py\n'}
+[23.553399] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//launch/gazebo.launch.py\n'}
+[23.553564] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//worlds/stairs.world\n'}
+[23.553909] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/config.yaml\n'}
+[23.554007] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0501.pt\n'}
+[23.554096] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0522.pt\n'}
+[23.554187] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0526.pt\n'}
+[23.554276] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0702.pt\n'}
+[23.554464] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacsim/config.yaml\n'}
+[23.554570] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacsim/policy.pt\n'}
+[23.554654] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/go2_isaacgym/config.yaml\n'}
+[23.554747] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/go2_isaacgym/himloco.pt\n'}
+[23.554834] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/go2_isaacgym/policy_1.pt\n'}
+[23.554926] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t1_isaacgym/config.yaml\n'}
+[23.555018] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t1_isaacgym/model_4000_jit.pt\n'}
+[23.555109] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t1_isaacsim/config.yaml\n'}
+[23.555196] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t2_isaacgym/config.yaml\n'}
+[23.555283] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t2_isaacgym/model_4000_jit.pt\n'}
+[23.555368] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t2_isaacsim/config.yaml\n'}
+[23.555507] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/rl_sar\n'}
+[23.555652] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/rl_sar\n'}
+[23.555762] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/ament_prefix_path.sh\n'}
+[23.555869] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/ament_prefix_path.dsv\n'}
+[23.555988] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/path.sh\n'}
+[23.556097] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/path.dsv\n'}
+[23.556201] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.bash\n'}
+[23.556304] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.sh\n'}
+[23.556408] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.zsh\n'}
+[23.556520] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.dsv\n'}
+[23.556610] (rl_sar) StdoutLine: {'line': b'-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/package.dsv\n'}
+[23.563872] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/rl_sar\n'}
+[23.564006] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/cmake/rl_sarConfig.cmake\n'}
+[23.564111] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/cmake/rl_sarConfig-version.cmake\n'}
+[23.564245] (rl_sar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/package.xml\n'}
+[23.565377] (-) TimerEvent: {}
+[23.565922] (rl_sar) CommandEnded: {'returncode': 0}
+[23.583852] (rl_sar) JobEnded: {'identifier': 'rl_sar', 'rc': 0}
+[23.584401] (-) EventReactorShutdown: {}

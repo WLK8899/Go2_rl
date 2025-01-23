@@ -1,0 +1,199 @@
+[0.012s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_generator_c[0m
+[0.052s] [  1%] Built target robot_msgs__cpp
+[0.055s] [ 12%] Built target robot_msgs__rosidl_generator_c
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_cpp[0m
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.062s] [ 12%] Built target ament_cmake_python_symlink_robot_msgs
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_c[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_c[0m
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.073s] [ 34%] Built target robot_msgs__rosidl_typesupport_cpp
+[0.074s] [ 33%] Built target robot_msgs__rosidl_typesupport_c
+[0.074s] [ 46%] Built target robot_msgs__rosidl_typesupport_introspection_c
+[0.074s] [ 57%] Built target robot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.076s] [ 68%] Built target robot_msgs__rosidl_typesupport_fastrtps_c
+[0.077s] [ 79%] Built target robot_msgs__rosidl_typesupport_introspection_cpp
+[0.094s] [ 79%] Built target robot_msgs
+[0.112s] [ 80%] Built target robot_msgs__py
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_generator_py[0m
+[0.134s] [ 90%] Built target robot_msgs__rosidl_generator_py
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_c__pyext[0m
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.154s] [100%] Built target robot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.154s] [100%] Built target robot_msgs__rosidl_typesupport_c__pyext
+[0.154s] [100%] Built target robot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.244s] running egg_info
+[0.244s] writing robot_msgs.egg-info/PKG-INFO
+[0.244s] writing dependency_links to robot_msgs.egg-info/dependency_links.txt
+[0.244s] writing top-level names to robot_msgs.egg-info/top_level.txt
+[0.246s] reading manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[0.246s] writing manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[0.265s] [100%] Built target ament_cmake_python_build_robot_msgs_egg
+[0.275s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs -- -j16 -l16
+[0.277s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs
+[0.283s] -- Install configuration: ""
+[0.283s] -- Execute custom install script
+[0.284s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/rosidl_interfaces/robot_msgs
+[0.284s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__functions.h
+[0.284s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__struct.h
+[0.284s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__type_support.h
+[0.284s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__functions.h
+[0.285s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__struct.h
+[0.285s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__type_support.h
+[0.285s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__functions.h
+[0.285s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__struct.h
+[0.285s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__type_support.h
+[0.285s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__functions.h
+[0.285s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__struct.h
+[0.285s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__type_support.h
+[0.285s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__functions.h
+[0.285s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__struct.h
+[0.285s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__type_support.h
+[0.286s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/imu.h
+[0.286s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/motor_command.h
+[0.286s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/motor_state.h
+[0.286s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/robot_command.h
+[0.286s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/robot_state.h
+[0.286s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.286s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/library_path.sh
+[0.286s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/library_path.dsv
+[0.287s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[0.287s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[0.287s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[0.287s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h
+[0.287s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h
+[0.287s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.287s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[0.287s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[0.288s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[0.288s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__rosidl_typesupport_introspection_c.h
+[0.288s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_c.h
+[0.288s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.288s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__builder.hpp
+[0.288s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__struct.hpp
+[0.288s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__traits.hpp
+[0.288s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__type_support.hpp
+[0.289s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__builder.hpp
+[0.289s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__struct.hpp
+[0.289s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__traits.hpp
+[0.289s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__type_support.hpp
+[0.289s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__builder.hpp
+[0.289s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__struct.hpp
+[0.289s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__traits.hpp
+[0.289s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__type_support.hpp
+[0.289s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__builder.hpp
+[0.289s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__struct.hpp
+[0.290s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__traits.hpp
+[0.290s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__type_support.hpp
+[0.290s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__builder.hpp
+[0.290s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__struct.hpp
+[0.290s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__traits.hpp
+[0.290s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__type_support.hpp
+[0.290s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/imu.hpp
+[0.290s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/motor_command.hpp
+[0.290s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/motor_state.hpp
+[0.290s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/robot_command.hpp
+[0.290s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/robot_state.hpp
+[0.291s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.291s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[0.291s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.291s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.291s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.291s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.291s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.292s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[0.292s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[0.292s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[0.292s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp
+[0.292s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp
+[0.292s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/pythonpath.sh
+[0.292s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/pythonpath.dsv
+[0.293s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.293s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.293s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.293s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.293s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/__init__.py
+[0.293s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c
+[0.294s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.294s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.294s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/librobot_msgs__rosidl_generator_py.so
+[0.294s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/__init__.py
+[0.294s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_imu.py
+[0.294s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_imu_s.c
+[0.294s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_motor_command.py
+[0.294s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_motor_command_s.c
+[0.294s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_motor_state.py
+[0.294s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_motor_state_s.c
+[0.295s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_robot_command.py
+[0.295s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_robot_command_s.c
+[0.295s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_robot_state.py
+[0.295s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg/_robot_state_s.c
+[0.295s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.295s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.295s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.295s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.295s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.296s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.296s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/MotorCommand.idl
+[0.296s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/MotorState.idl
+[0.296s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/RobotCommand.idl
+[0.296s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/RobotState.idl
+[0.296s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/IMU.idl
+[0.296s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/MotorCommand.msg
+[0.296s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/MotorState.msg
+[0.296s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/RobotCommand.msg
+[0.297s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/RobotState.msg
+[0.297s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/msg/IMU.msg
+[0.297s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/robot_msgs
+[0.297s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/robot_msgs
+[0.297s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/ament_prefix_path.sh
+[0.297s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/ament_prefix_path.dsv
+[0.297s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/path.sh
+[0.297s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/environment/path.dsv
+[0.297s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/local_setup.bash
+[0.298s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/local_setup.sh
+[0.298s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/local_setup.zsh
+[0.298s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/local_setup.dsv
+[0.298s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/package.dsv
+[0.305s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/robot_msgs
+[0.305s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/rosidl_cmake-extras.cmake
+[0.305s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.306s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.306s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.306s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.306s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.306s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.306s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgsConfig.cmake
+[0.306s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgsConfig-version.cmake
+[0.306s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/package.xml
+[0.307s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_generator_c.so
+[0.307s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_fastrtps_c.so
+[0.307s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_introspection_c.so
+[0.307s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_c.so
+[0.307s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.308s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_introspection_cpp.so
+[0.308s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_typesupport_cpp.so
+[0.330s] Listing '/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs'...
+[0.330s] Listing '/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages/robot_msgs/msg'...
+[0.333s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_msgs__rosidl_generator_py.so
+[0.333s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport.cmake
+[0.333s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.333s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cppExport.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport.cmake
+[0.334s] -- Up-to-date: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.336s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs

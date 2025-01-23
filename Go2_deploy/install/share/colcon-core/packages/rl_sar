@@ -1,0 +1,1 @@
+controller_manager:gazebo_ros:joint_state_controller:rclcpp:robot_joint_controller:robot_msgs:robot_state_publisher:rospy:std_msgs:yaml-cpp

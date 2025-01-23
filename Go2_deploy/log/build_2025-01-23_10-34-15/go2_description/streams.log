@@ -1,0 +1,42 @@
+[0.012s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/go2_description -- -j16 -l16
+[0.051s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/go2_description -- -j16 -l16
+[0.052s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/go2_description
+[0.058s] -- Install configuration: ""
+[0.058s] -- Execute custom install script
+[0.059s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//config/robot_control.yaml
+[0.059s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//launch/check_joint.rviz
+[0.059s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//launch/gazebo.launch
+[0.059s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//launch/go2_rviz.launch
+[0.059s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/calf.dae
+[0.060s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/calf_mirror.dae
+[0.060s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/foot.dae
+[0.060s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/hip.dae
+[0.060s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/thigh.dae
+[0.060s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/thigh_mirror.dae
+[0.060s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//meshes/trunk.dae
+[0.060s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//urdf/Amended_collision_model.png
+[0.060s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//urdf/Normal_collision_model.png
+[0.061s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//urdf/go2_description.urdf
+[0.061s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/const.xacro
+[0.061s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/gazebo.xacro
+[0.061s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/leg.xacro
+[0.061s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/materials.xacro
+[0.061s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/robot.xacro
+[0.061s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/ros2_control.xacro
+[0.061s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description//xacro/transmission.xacro
+[0.062s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/go2_description
+[0.062s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/go2_description
+[0.062s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/environment/ament_prefix_path.sh
+[0.062s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/environment/ament_prefix_path.dsv
+[0.062s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/environment/path.sh
+[0.062s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/environment/path.dsv
+[0.063s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/local_setup.bash
+[0.063s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/local_setup.sh
+[0.063s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/local_setup.zsh
+[0.063s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/local_setup.dsv
+[0.063s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/package.dsv
+[0.072s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/go2_description
+[0.073s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/cmake/go2_descriptionConfig.cmake
+[0.073s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/cmake/go2_descriptionConfig-version.cmake
+[0.073s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/go2_description/package.xml
+[0.089s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/go2_description

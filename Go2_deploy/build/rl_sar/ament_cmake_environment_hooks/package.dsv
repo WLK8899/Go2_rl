@@ -1,0 +1,4 @@
+source;share/rl_sar/local_setup.bash
+source;share/rl_sar/local_setup.dsv
+source;share/rl_sar/local_setup.sh
+source;share/rl_sar/local_setup.zsh

@@ -1,0 +1,22 @@
+In file included from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/include/robot_joint_controller.hpp:9[m[K,
+                 from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/src/robot_joint_controller.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+   22 | ed. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                     [01;36m[K^[m[K
+
+In file included from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/include/robot_joint_controller.hpp:10[m[K,
+                 from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/src/robot_joint_controller.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 | cated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                     [01;36m[K^[m[K
+
+In file included from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/include/robot_joint_controller_group.hpp:9[m[K,
+                 from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/src/robot_joint_controller_group.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/include/robot_joint_controller_group.hpp:10[m[K,
+                 from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/src/robot_joint_controller_group.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                    [01;36m[K^[m[K

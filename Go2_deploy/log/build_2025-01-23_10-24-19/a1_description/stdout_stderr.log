@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/y/Project/unitree_Go2/Go2_deploy/build/a1_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//config/robot_control.yaml
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//config/robot_control_group.yaml
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/a1_rviz.launch.py
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/check_joint.rviz
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/group_gazebo.launch.py
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/single_gazebo.launch.py
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/calf.dae
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/hip.dae
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/thigh.dae
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/thigh_mirror.dae
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/trunk.dae
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/trunk_A1.png
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//urdf/a1.urdf
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/const.xacro
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/gazebo.xacro
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/leg.xacro
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/materials.xacro
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/robot.xacro
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/ros2_control.xacro
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/stairs.xacro
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/transmission.xacro
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/a1_description
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/a1_description
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/path.sh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/path.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.bash
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.sh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.zsh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/package.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/a1_description
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/cmake/a1_descriptionConfig.cmake
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/cmake/a1_descriptionConfig-version.cmake
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/package.xml

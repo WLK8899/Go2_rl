@@ -1,0 +1,10 @@
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller/CMakeFiles/uninstall.dir
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller/CMakeFiles/robot_joint_controller_uninstall.dir
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller/CMakeFiles/robot_joint_controller.dir
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller/CMakeFiles/test.dir
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller/CMakeFiles/edit_cache.dir
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller/CMakeFiles/rebuild_cache.dir
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller/CMakeFiles/list_install_components.dir
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller/CMakeFiles/install.dir
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller/CMakeFiles/install/local.dir
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller/CMakeFiles/install/strip.dir

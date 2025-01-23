@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_msgs/msg/MotorState.msg
+// generated code does not contain a copyright notice
+
+
+module robot_msgs {
+  module msg {
+    struct MotorState {
+      @verbatim (language="comment", text=
+        "motor current pos (rad)")
+      float q;
+
+      @verbatim (language="comment", text=
+        "motor current vel (rad/s)")
+      float dq;
+
+      @verbatim (language="comment", text=
+        "motor current acc (rad/s^2)")
+      float ddq;
+
+      @verbatim (language="comment", text=
+        "current estimated output torque (N*m)")
+      float tau_est;
+
+      @verbatim (language="comment", text=
+        "current estimated output cur (N*m)")
+      float cur;
+    };
+  };
+};

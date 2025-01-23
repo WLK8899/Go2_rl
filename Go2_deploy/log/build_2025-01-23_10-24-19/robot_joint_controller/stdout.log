@@ -1,0 +1,73 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found control_toolbox: 3.4.0 (/opt/ros/humble/share/control_toolbox/cmake)
+-- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found hardware_interface: 2.46.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found controller_interface: 2.46.0 (/opt/ros/humble/share/controller_interface/cmake)
+-- Found robot_msgs: 0.0.0 (/home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller
+[ 66%] [32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/src/robot_joint_controller.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/src/robot_joint_controller_group.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library librobot_joint_controller.so[0m
+[100%] Built target robot_joint_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller//robot_joint_controller_plugins.xml
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/robot_joint_controller.hpp
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/robot_joint_controller_group.hpp
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/visibility_control.h
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/library_path.sh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/library_path.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/robot_joint_controller
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/robot_joint_controller
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/path.sh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/path.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.bash
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.sh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.zsh
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/package.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/robot_joint_controller
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robot_joint_controller
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/robot_joint_controllerConfig.cmake
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/robot_joint_controllerConfig-version.cmake
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/package.xml
+-- Installing: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_joint_controller.so
+-- Set runtime path of "/home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_joint_controller.so" to ""

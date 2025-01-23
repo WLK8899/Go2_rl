@@ -1,0 +1,88 @@
+[0.009s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robots/a1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/y/Project/unitree_Go2/Go2_deploy/install
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.135s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.272s] -- Detecting CXX compiler ABI info - done
+[0.277s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.277s] -- Detecting CXX compile features
+[0.278s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.400s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.450s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.478s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.480s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.533s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.535s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.556s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.559s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.565s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.634s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.635s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.635s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.674s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.677s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.705s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.752s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.754s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.767s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.770s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.776s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.794s] -- Looking for pthread.h
+[0.853s] -- Looking for pthread.h - found
+[0.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.912s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.914s] -- Found Threads: TRUE  
+[1.100s] -- Configuring done
+[1.105s] -- Generating done
+[1.107s] -- Build files have been written to: /home/y/Project/unitree_Go2/Go2_deploy/build/a1_description
+[1.116s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robots/a1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/y/Project/unitree_Go2/Go2_deploy/install
+[1.118s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/a1_description -- -j16 -l16
+[1.152s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/a1_description -- -j16 -l16
+[1.161s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/a1_description
+[1.167s] -- Install configuration: ""
+[1.167s] -- Execute custom install script
+[1.168s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//config/robot_control.yaml
+[1.175s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//config/robot_control_group.yaml
+[1.182s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/a1_rviz.launch.py
+[1.189s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/check_joint.rviz
+[1.196s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/group_gazebo.launch.py
+[1.204s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//launch/single_gazebo.launch.py
+[1.211s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/calf.dae
+[1.218s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/hip.dae
+[1.225s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/thigh.dae
+[1.232s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/thigh_mirror.dae
+[1.240s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/trunk.dae
+[1.247s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//meshes/trunk_A1.png
+[1.255s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//urdf/a1.urdf
+[1.263s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/const.xacro
+[1.270s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/gazebo.xacro
+[1.278s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/leg.xacro
+[1.286s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/materials.xacro
+[1.294s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/robot.xacro
+[1.301s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/ros2_control.xacro
+[1.309s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/stairs.xacro
+[1.317s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description//xacro/transmission.xacro
+[1.325s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/a1_description
+[1.333s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/a1_description
+[1.340s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/ament_prefix_path.sh
+[1.348s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/ament_prefix_path.dsv
+[1.356s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/path.sh
+[1.364s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/environment/path.dsv
+[1.371s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.bash
+[1.379s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.sh
+[1.386s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.zsh
+[1.394s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/local_setup.dsv
+[1.401s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/package.dsv
+[1.409s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/a1_description
+[1.416s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/cmake/a1_descriptionConfig.cmake
+[1.424s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/cmake/a1_descriptionConfig-version.cmake
+[1.432s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/a1_description/package.xml
+[1.457s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/a1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/a1_description

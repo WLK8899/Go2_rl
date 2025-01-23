@@ -1,0 +1,4 @@
+Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs -- -j16 -l16
+Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs -- -j16 -l16
+Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs
+Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs

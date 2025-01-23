@@ -1,0 +1,57 @@
+[0.009s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar -- -j16 -l16
+[0.083s] [ 40%] Built target rl_sdk
+[0.083s] [ 40%] Built target observation_buffer
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target rl_real_a1[0m
+[0.137s] [ 80%] Built target rl_sim
+[0.137s] [ 80%] Built target rl_real_go2
+[0.165s] [100%] Built target rl_real_a1
+[0.175s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar' returned '0': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar -- -j16 -l16
+[0.176s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar
+[0.182s] -- Install configuration: "Debug"
+[0.183s] -- Execute custom install script
+[0.183s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libunitree_legged_sdk_amd64.so
+[0.183s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libunitree_legged_sdk_arm32.so
+[0.183s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libunitree_legged_sdk_arm64.so
+[0.183s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libddsc.so
+[0.183s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib//libddscxx.so
+[0.183s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_sim
+[0.183s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/librl_sdk.a
+[0.184s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/libobservation_buffer.a
+[0.184s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_real_a1
+[0.184s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_real_go2
+[0.184s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/rl_sim.py
+[0.184s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/rl_sar/actuator_net.py
+[0.184s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//launch/gazebo.launch.py
+[0.184s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//worlds/stairs.world
+[0.185s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/config.yaml
+[0.185s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0501.pt
+[0.185s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0522.pt
+[0.185s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0526.pt
+[0.185s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacgym/model_0702.pt
+[0.185s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacsim/config.yaml
+[0.185s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/a1_isaacsim/policy.pt
+[0.185s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/go2_isaacgym/config.yaml
+[0.185s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/go2_isaacgym/himloco.pt
+[0.186s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/go2_isaacgym/policy_1.pt
+[0.186s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t1_isaacgym/config.yaml
+[0.186s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t1_isaacgym/model_4000_jit.pt
+[0.186s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t1_isaacsim/config.yaml
+[0.186s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t2_isaacgym/config.yaml
+[0.186s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t2_isaacgym/model_4000_jit.pt
+[0.186s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar//models/gr1t2_isaacsim/config.yaml
+[0.186s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/rl_sar
+[0.186s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/rl_sar
+[0.186s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/ament_prefix_path.sh
+[0.187s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/ament_prefix_path.dsv
+[0.187s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/path.sh
+[0.187s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/environment/path.dsv
+[0.187s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.bash
+[0.187s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.sh
+[0.187s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.zsh
+[0.187s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/local_setup.dsv
+[0.187s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/package.dsv
+[0.195s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/rl_sar
+[0.195s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/cmake/rl_sarConfig.cmake
+[0.195s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/cmake/rl_sarConfig-version.cmake
+[0.195s] -- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/rl_sar/package.xml
+[0.197s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar' returned '0': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar

@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_joint_controller[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/src/robot_joint_controller.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/src/robot_joint_controller_group.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library librobot_joint_controller.so[0m
+[100%] Built target robot_joint_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller//robot_joint_controller_plugins.xml
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/robot_joint_controller.hpp
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/robot_joint_controller_group.hpp
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/visibility_control.h
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/library_path.sh
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/library_path.dsv
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/robot_joint_controller
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/robot_joint_controller
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/path.sh
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/path.dsv
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.bash
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.sh
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.zsh
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.dsv
+-- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/package.dsv
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/robot_joint_controller
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robot_joint_controller
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/robot_joint_controllerConfig.cmake
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/robot_joint_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/package.xml
+-- Installing: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_joint_controller.so
+-- Set runtime path of "/home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_joint_controller.so" to ""

@@ -1,0 +1,5 @@
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs/rosidl_adapter/robot_msgs:msg/MotorCommand.idl
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs/rosidl_adapter/robot_msgs:msg/MotorState.idl
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs/rosidl_adapter/robot_msgs:msg/RobotCommand.idl
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs/rosidl_adapter/robot_msgs:msg/RobotState.idl
+/home/y/Project/unitree_Go2/Go2_deploy/build/robot_msgs/rosidl_adapter/robot_msgs:msg/IMU.idl

@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e2202b4637434f974e77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rl_sar",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "observation_buffer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-observation_buffer-Debug-031467737d158275a61c.json",
+					"name" : "observation_buffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rl_real_a1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rl_real_a1-Debug-007dfd00c62ffeae52d1.json",
+					"name" : "rl_real_a1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rl_real_go2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rl_real_go2-Debug-682b030fb7f1ac01c46d.json",
+					"name" : "rl_real_go2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rl_sar_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rl_sar_uninstall-Debug-2fcfb6108aa0a63fd9f2.json",
+					"name" : "rl_sar_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rl_sdk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rl_sdk-Debug-6ce738d60133531ddd08.json",
+					"name" : "rl_sdk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rl_sim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rl_sim-Debug-1c6381e7264601e9d867.json",
+					"name" : "rl_sim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-33ab3f54fce5ea6c806d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/y/Project/unitree_Go2/Go2_deploy/build/rl_sar",
+		"source" : "/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/rl_sar"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

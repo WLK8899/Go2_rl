@@ -1,0 +1,101 @@
+[0.007s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/y/Project/unitree_Go2/Go2_deploy/install
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.161s] -- Detecting C compile features - done
+[0.163s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.233s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.233s] -- Detecting CXX compile features
+[0.233s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.347s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.391s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.413s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.446s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.450s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.456s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.508s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.510s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.584s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.608s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.644s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.650s] -- Looking for pthread.h
+[0.716s] -- Looking for pthread.h - found
+[0.716s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.777s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.778s] -- Found Threads: TRUE  
+[0.814s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.847s] -- Found control_toolbox: 3.4.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.947s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.964s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.986s] -- Found hardware_interface: 2.46.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.992s] -- Found controller_interface: 2.46.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.996s] -- Found robot_msgs: 0.0.0 (/home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_msgs/cmake)
+[1.062s] -- Configuring done
+[1.092s] -- Generating done
+[1.096s] -- Build files have been written to: /home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller
+[1.105s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller' returned '0': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/y/Project/unitree_Go2/Go2_deploy/install
+[1.106s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller -- -j16 -l16
+[1.149s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/src/robot_joint_controller.cpp.o[0m
+[1.149s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/src/robot_joint_controller_group.cpp.o[0m
+[2.199s] In file included from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/include/robot_joint_controller.hpp:9[m[K,
+[2.199s]                  from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/src/robot_joint_controller.cpp:1[m[K:
+[2.199s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[2.199s]    22 | ed. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.199s]       |                                                                     [01;36m[K^[m[K
+[2.200s] 
+[2.200s] In file included from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/include/robot_joint_controller.hpp:10[m[K,
+[2.200s]                  from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/src/robot_joint_controller.cpp:1[m[K:
+[2.200s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[2.200s]    22 | cated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.200s]       |                                                                     [01;36m[K^[m[K
+[2.200s] 
+[2.200s] In file included from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/include/robot_joint_controller_group.hpp:9[m[K,
+[2.200s]                  from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/src/robot_joint_controller_group.cpp:1[m[K:
+[2.200s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[2.201s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.201s]       |                                                                                                       [01;36m[K^[m[K
+[2.201s] In file included from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/include/robot_joint_controller_group.hpp:10[m[K,
+[2.201s]                  from [01m[K/home/y/Project/unitree_Go2/Go2_deploy/rl_sar/src/robot_joint_controller/src/robot_joint_controller_group.cpp:1[m[K:
+[2.201s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[2.201s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.201s]       |                                                                                                    [01;36m[K^[m[K
+[8.241s] [100%] [32m[1mLinking CXX shared library librobot_joint_controller.so[0m
+[8.849s] [100%] Built target robot_joint_controller
+[8.859s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller' returned '0': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller -- -j16 -l16
+[8.860s] Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller
+[8.866s] -- Install configuration: ""
+[8.866s] -- Execute custom install script
+[8.866s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller//robot_joint_controller_plugins.xml
+[8.873s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/robot_joint_controller.hpp
+[8.880s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/robot_joint_controller_group.hpp
+[8.888s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/include/robot_joint_controller/visibility_control.h
+[8.895s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/library_path.sh
+[8.902s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/library_path.dsv
+[8.909s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/package_run_dependencies/robot_joint_controller
+[8.916s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/parent_prefix_path/robot_joint_controller
+[8.923s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/ament_prefix_path.sh
+[8.931s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/ament_prefix_path.dsv
+[8.937s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/path.sh
+[8.944s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/environment/path.dsv
+[8.952s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.bash
+[8.959s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.sh
+[8.966s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.zsh
+[8.973s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/local_setup.dsv
+[8.980s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/package.dsv
+[8.986s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/packages/robot_joint_controller
+[8.993s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robot_joint_controller
+[9.000s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[9.007s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.015s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/robot_joint_controllerConfig.cmake
+[9.022s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/cmake/robot_joint_controllerConfig-version.cmake
+[9.029s] -- Symlinking: /home/y/Project/unitree_Go2/Go2_deploy/install/share/robot_joint_controller/package.xml
+[9.036s] -- Installing: /home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_joint_controller.so
+[9.047s] -- Set runtime path of "/home/y/Project/unitree_Go2/Go2_deploy/install/lib/librobot_joint_controller.so" to ""
+[9.049s] Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller' returned '0': AMENT_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install:/opt/ros/humble LD_LIBRARY_PATH=/home/y/Project/unitree_Go2/Go2_deploy/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/Project/unitree_Go2/Go2_deploy/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/robot_joint_controller

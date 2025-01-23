@@ -1,0 +1,4 @@
+Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/go2_description -- -j16 -l16
+Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/Project/unitree_Go2/Go2_deploy/build/go2_description -- -j16 -l16
+Invoking command in '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/go2_description
+Invoked command in '/home/y/Project/unitree_Go2/Go2_deploy/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/Project/unitree_Go2/Go2_deploy/build/go2_description
